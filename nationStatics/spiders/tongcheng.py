@@ -141,8 +141,8 @@ class ExampleSpider(RedisSpider):
             imgname = int(time.time())
             urlretrieve(imgUrl, './image/' + 'pre_' + str(imgname) + capta + '.jpg')
             # 本地图片上传到sftp远程服务器
-            transport = paramiko.Transport(('47.105.207.207', 22))
-            transport.connect(username='root', password='Zhu@Hog@0117')
+            transport = paramiko.Transport(('*.*.*.*', 22))
+            transport.connect(username='root', password='password')
 
             sftp = paramiko.SFTPClient.from_transport(transport)  # 如果连接需要密钥，则要加上一个参数，hostkey="密钥"
 
