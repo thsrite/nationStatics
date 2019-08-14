@@ -72,7 +72,7 @@ class NationstaticsPipeline(object):
 
             #dict(item)
             # 数据库连接
-            self.con = pymysql.connect(host='47.105.207.207', user='root', passwd='root', db='app', charset='utf8', port=3306)
+            self.con = pymysql.connect(host='*.*.*.*', user='root', passwd='root', db='app', charset='utf8', port=3306)
             print("mysql connect succes")  # 测试语句，这在程序执行时非常有效的理解程序是否执行到这一步
 
             try:
@@ -123,7 +123,7 @@ class NationstaticsPipeline(object):
 
             # dict(item)
             # 数据库连接
-            self.con = pymysql.connect(host='47.105.207.207', user='root', passwd='root', db='app', charset='utf8',
+            self.con = pymysql.connect(host='*.*.*.*', user='root', passwd='root', db='app', charset='utf8',
                                        port=3306)
             print("mysql connect succes")  # 测试语句，这在程序执行时非常有效的理解程序是否执行到这一步
 
@@ -174,7 +174,7 @@ class NationstaticsPipeline(object):
 
             # dict(item)
             # 数据库连接
-            self.con = pymysql.connect(host='47.105.207.207', user='root', passwd='root', db='app', charset='utf8',
+            self.con = pymysql.connect(host='*.*.*.*', user='root', passwd='root', db='app', charset='utf8',
                                        port=3306)
             print("mysql connect succes")  # 测试语句，这在程序执行时非常有效的理解程序是否执行到这一步
 
@@ -221,7 +221,7 @@ class NationstaticsPipeline(object):
 
             # dict(item)
             # 数据库连接
-            self.con = pymysql.connect(host='47.105.207.207', user='root', passwd='root', db='app', charset='utf8',
+            self.con = pymysql.connect(host='*.*.*.*', user='root', passwd='root', db='app', charset='utf8',
                                        port=3306)
             print("mysql connect succes")  # 测试语句，这在程序执行时非常有效的理解程序是否执行到这一步
 
